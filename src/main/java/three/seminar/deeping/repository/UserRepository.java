@@ -13,7 +13,7 @@ public class UserRepository {
 
 
     public User save(User user) {
-        handong.put(user.getStuNum(), user);
+        handong.put(user.getStuNum(), user );
         return user;
     }
 
